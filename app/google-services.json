@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "261866661211",
+    "firebase_url": "https://chatwhatsapp-6cb59-default-rtdb.firebaseio.com",
+    "project_id": "chatwhatsapp-6cb59",
+    "storage_bucket": "chatwhatsapp-6cb59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261866661211:android:96c07eec6c9125ed61a67e",
+        "android_client_info": {
+          "package_name": "mhmd.salem.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261866661211-f782kvim2sh7hvgo0tgs8ndajuip3g78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mhmd.salem.chat",
+            "certificate_hash": "c8df156fa2ff33316b61e7bb7d50ee0301913db6"
+          }
+        },
+        {
+          "client_id": "261866661211-d744eembkuqk22s4jh6thjg8onvcrefi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARzETHRhiByG9DmDDbjaeHV_YWyYr0k9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261866661211-d744eembkuqk22s4jh6thjg8onvcrefi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261866661211:android:214782e0a8204a0e61a67e",
+        "android_client_info": {
+          "package_name": "mhmd.salem.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261866661211-tfilpoe1571bcohqe85umdg0tjeiiiti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mhmd.salem.chatapplication",
+            "certificate_hash": "c8df156fa2ff33316b61e7bb7d50ee0301913db6"
+          }
+        },
+        {
+          "client_id": "261866661211-d744eembkuqk22s4jh6thjg8onvcrefi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARzETHRhiByG9DmDDbjaeHV_YWyYr0k9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261866661211-d744eembkuqk22s4jh6thjg8onvcrefi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261866661211:android:506e81f796549a2e61a67e",
+        "android_client_info": {
+          "package_name": "mhmd.salem.chatkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261866661211-qi1c2o1ftct7l0bn00ppbfnu12csb7u6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mhmd.salem.chatkotlin",
+            "certificate_hash": "c8df156fa2ff33316b61e7bb7d50ee0301913db6"
+          }
+        },
+        {
+          "client_id": "261866661211-d744eembkuqk22s4jh6thjg8onvcrefi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARzETHRhiByG9DmDDbjaeHV_YWyYr0k9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261866661211-d744eembkuqk22s4jh6thjg8onvcrefi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

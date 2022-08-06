@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ChatKotlin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="name">Name</string>
+    <string name="personalName">Personal Name</string>
+    <string name="description_name">This is your username . This name will be visible to your contacts.</string>
+    <string name="status">Status</string>
+    <string name="about_t">About</string>
+    <string name="phone">Phone</string>
+</resources>

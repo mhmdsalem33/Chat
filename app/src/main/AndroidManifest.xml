@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mhmd.salem.chatkotlin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChatKotlin"
+        android:name=".NetWork.ChatNetWork"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Activites.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.AuthActivity"
+            android:exported="false"
+            android:theme="@style/authTheme" />
+        <activity
+            android:name=".Activites.UsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.SplashActivity"
+            android:exported="true"
+            android:theme="@style/splashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Notifications.FirebaseServices"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

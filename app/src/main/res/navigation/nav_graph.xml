@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="mhmd.salem.chatkotlin.Fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_edtNameFragment"
+            app:destination="@id/edtNameFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_edtAboutFragment"
+            app:destination="@id/edtAboutFragment" />
+
+    </fragment>
+    <dialog
+        android:id="@+id/edtNameFragment"
+        android:name="mhmd.salem.chatkotlin.Fragments.EdtNameFragment"
+        android:label="fragment_edt_name"
+        tools:layout="@layout/fragment_edt_name" />
+    <dialog
+        android:id="@+id/edtAboutFragment"
+        android:name="mhmd.salem.chatkotlin.Fragments.EdtAboutFragment"
+        android:label="fragment_edt_about"
+        tools:layout="@layout/fragment_edt_about" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="mhmd.salem.chatkotlin.Fragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+
+
+</navigation>
